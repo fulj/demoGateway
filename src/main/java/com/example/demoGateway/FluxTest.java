@@ -23,6 +23,7 @@ public class FluxTest {
                     @Override
                     public void onNext(Integer integer) {
                         elements.add(integer);
+                        // test
                     }
 
                     @Override
